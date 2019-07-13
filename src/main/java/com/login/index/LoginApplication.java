@@ -15,7 +15,7 @@ public class LoginApplication extends SpringBootServletInitializer{
 	
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(logincontroller.class);
+        return builder.sources(LoginApplication.class);
     }
 
 }
