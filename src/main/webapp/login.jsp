@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <p>ABRAKADABRA...</p>
+    <p>Login Successful!</p>
 </body>
 </html>
