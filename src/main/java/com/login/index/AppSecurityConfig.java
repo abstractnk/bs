@@ -33,7 +33,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 		List<UserDetails> users = new ArrayList<>();
 		users.add(User.withDefaultPasswordEncoder().username("Nanda").password("qwerty").roles("USER").build());
 		users.add(User.withDefaultPasswordEncoder().username("Kishore").password("qwerty").roles("USER").build());
-		users.add(User.withDefaultPasswordEncoder().username("Jibin").password("qwerty").roles("USER").build());
+		users.add(User.withDefaultPasswordEncoder().username("A").password("qwerty").roles("USER").build());
 
 		return new InMemoryUserDetailsManager(users);
 	}
