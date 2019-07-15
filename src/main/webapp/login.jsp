@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Logged in</title>
 </head>
 <body>
     <p>Login Successful!</p>
